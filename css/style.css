@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgba(13, 110, 139, 0.75);
+    --primary-color: rgba(160, 170, 176, 0.4);
     --secondary-color: rgba(229, 148, 0, 0.9);
     --overlay-color: rgba(24, 39, 51, 0.95);
     --menu-speed: 0.75s;
@@ -32,7 +32,10 @@ body {
 
 #showcase:before {
     content: '';
-    background-color: deeppink; /*obrazek powinein być*/
+    background: url(../img/background.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
     position: absolute;
     top:0;
     left: 0;
